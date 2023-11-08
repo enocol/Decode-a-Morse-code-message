@@ -12,6 +12,10 @@ def decode_char(morse_code)
   morse_code_dict[morse_code] || 'Invalid Morse code character'
 end
 
-morse_char = ".-."
+
+
+
+
+morse_char = "..."
 decoded_char = decode_char(morse_char)
 puts decoded_char 
